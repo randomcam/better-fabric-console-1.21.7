@@ -13,7 +13,7 @@ version = "1.2.4-SNAPSHOT"
 group = "xyz.jpenilla"
 description = "Server-side Fabric mod enhancing the console with tab completions, colored log output, command syntax highlighting, command history, and more."
 
-val minecraftVersion = "1.21.5"
+val minecraftVersion = "1.21.7"
 
 dependencies {
   minecraft("com.mojang", "minecraft", minecraftVersion)

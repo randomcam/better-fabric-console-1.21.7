@@ -35,7 +35,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.text.DecimalFormat;
 import java.util.zip.GZIPOutputStream;
-import net.minecraft.DetectedVersion;
+//import net.minecraft.DetectedVersion;
 import org.checkerframework.checker.nullness.qual.NonNull;
 import org.checkerframework.framework.qual.DefaultQualifier;
 import org.slf4j.Logger;
@@ -48,7 +48,7 @@ public final class MappingsCache {
   private static final Logger LOGGER = LogUtils.getLogger();
   private static final String VERSION = String.valueOf(2);
   private static final String VERSION_PATH = "version.txt";
-  static final String MINECRAFT_VERSION = DetectedVersion.tryDetectVersion().getId();
+  static final String MINECRAFT_VERSION = "1.21.7";
   static final String DATA_PATH = "data";
   static final String MAPPINGS_PATH = "mappings";
   static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("0.0000");
